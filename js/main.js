@@ -75,13 +75,15 @@ icecream.addEventListener('click', function() {
   if (apple == currentFruit && icecream == currentDessert) {
     // console.log("The current fruit is the apple, and the current dessert is ice cream.");
     var appleIce = document.querySelector('.Holder--result').innerHTML= '<img src="' + images.mixes.apple.icecream + '">';
-  } else if (orange == currentFruit && icecream == currentDessert) {
+  }
+  if (orange == currentFruit && icecream == currentDessert) {
     // console.log(images.mixes.orange.icecream);
     var orangeIce = document.querySelector('.Holder--result').innerHTML= '<img src"' + images.mixes.orange.icecream + '">';
     console.log(orangeIce);
     // console.log(currentFruit);
     // console.log(currentDessert);
-  }else if (banana == currentFruit && icecream == currentDessert) {
+  }
+  if (banana == currentFruit && icecream == currentDessert) {
     var bananaIce = document.querySelector('.Holder--result').innerHTML = '<img src"' + images.mixes.banana.icecream + '">';
     console.log(bananaIce);
     // console.log(currentFruit);
@@ -99,9 +101,11 @@ cake.addEventListener('click', function() {
 
   if (apple == currentFruit && cake == currentDessert) {
     var appleCake = document.querySelector('.Holder--result').innerHTML = '<img src="' + images.mixes.apple.cake + '">';
-  }else if (orange == currentFruit && cake == currentDessert) {
+  }
+  if (orange == currentFruit && cake == currentDessert) {
     var orangeCake = document.querySelector('.Holder--result').innerHTML = '<img src="' + images.mixes.orange.cake + '">';
-  }else if (banana == currentFruit && cake == currentDessert) {
+  }
+  if (banana == currentFruit && cake == currentDessert) {
     var bananaCake = document.querySelector('.Holder--result').innerHTML = '<img src"' + images.mixes.banana.cake + '">';
   }
 });
@@ -115,9 +119,11 @@ pie.addEventListener('click', function() {
 
   if (apple == currentFruit && pie == currentDessert) {
     var applePie = document.querySelector('.Holder--result').innerHTML= '<img src="' + images.mixes.apple.pie + '">';
-  } else if (orange == currentFruit && pie == currentDessert) {
+  }
+  if (orange == currentFruit && pie == currentDessert) {
     var orangePie = document.querySelector('.Holder--result').innerHTML= '<img src="' + images.mixes.orange.pie + '">';
-  } else if (banana == currentFruit && pie == currentDessert) {
+  }
+  if (banana == currentFruit && pie == currentDessert) {
     var bananaPie = document.querySelector('.Holder--result').innerHTML = '<img src="' + images.mixes.banana.pie + '">';
   }
 });
