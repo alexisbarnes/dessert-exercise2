@@ -110,7 +110,7 @@ cake.addEventListener('click', function() {
   }
 });
 
-var pie = document.querySelector('.Dessert--smoothie');
+var pie = document.querySelector('.Dessert--pie');
 pie.addEventListener('click', function() {
   console.log('Pie clicked.');
   document.querySelector('.Holder--dessert').innerHTML= '<img src="' + images.desserts.pie + '">';
